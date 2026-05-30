@@ -1,0 +1,17 @@
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/AgiesDidGatewayApplication.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/config/CorsConfig.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/config/OpenApiConfig.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/controller/RevocationController.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/controller/RootController.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/controller/TrustController.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/model/AgentState.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/model/PolicyDecision.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/model/RevocationEvent.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/model/TrustEvaluationRequest.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/model/TrustEvaluationResponse.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/service/EmbeddingService.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/service/OpaPolicyService.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/service/RevocationBusService.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/service/StateGraphService.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/service/TokenTtlService.java
+/Users/mahesharunaladi/Documents/AGEIS-DID/AGIES-DID-1/src/main/java/com/agies/did/service/TrustScoringService.java

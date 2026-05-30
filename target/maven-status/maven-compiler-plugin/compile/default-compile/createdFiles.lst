@@ -1,0 +1,17 @@
+com/agies/did/config/OpenApiConfig.class
+com/agies/did/model/TrustEvaluationResponse.class
+com/agies/did/controller/TrustController.class
+com/agies/did/controller/RootController.class
+com/agies/did/controller/RevocationController.class
+com/agies/did/model/AgentState.class
+com/agies/did/service/OpaPolicyService.class
+com/agies/did/service/RevocationBusService.class
+com/agies/did/config/CorsConfig.class
+com/agies/did/service/EmbeddingService.class
+com/agies/did/model/TrustEvaluationRequest.class
+com/agies/did/model/PolicyDecision.class
+com/agies/did/model/RevocationEvent.class
+com/agies/did/AgiesDidGatewayApplication.class
+com/agies/did/service/StateGraphService.class
+com/agies/did/service/TokenTtlService.class
+com/agies/did/service/TrustScoringService.class

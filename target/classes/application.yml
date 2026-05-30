@@ -1,0 +1,37 @@
+server:
+  port: ${PORT:8000}
+
+spring:
+  application:
+    name: agies-did-gateway
+
+springdoc:
+  api-docs:
+    path: /openapi
+  swagger-ui:
+    path: /docs
+    operations-sorter: method
+    tags-sorter: alpha
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+
+agies:
+  cors:
+    allowed-origins: ${FRONTEND_ORIGINS:http://localhost:5173,http://localhost:3000}
+  opa:
+    url: ${OPA_URL:http://opa:8181/v1/data/agies/authz/decision}
+  neo4j:
+    uri: ${NEO4J_URI:bolt://neo4j:7687}
+    username: ${NEO4J_USERNAME:neo4j}
+    password: ${NEO4J_PASSWORD:change-me}
+  trust:
+    baseline-score: ${TRUST_BASELINE_SCORE:0.82}
+    low-trust-threshold: ${TRUST_LOW_THRESHOLD:0.45}
+  ttl:
+    high-trust-seconds: ${SVID_TTL_HIGH_SECONDS:3600}
+    medium-trust-seconds: ${SVID_TTL_MEDIUM_SECONDS:900}
+    low-trust-seconds: ${SVID_TTL_LOW_SECONDS:120}
